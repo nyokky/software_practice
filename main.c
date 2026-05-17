@@ -55,6 +55,7 @@ int main()
         printf("2. スケジュールの表示\n");
         printf("3. スケジュールの削除\n");
         printf("4. 保存して終了\n");
+        printf("5. 今日の予定のみ表示\n");
         printf("選択肢を入力してください: ");
         scanf("%d", &choice);
 
