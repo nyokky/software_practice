@@ -71,7 +71,7 @@ int main()
             break;
         case 4:
             saveSchedules(schedules, scheduleCount, filename);
-            printf("スケジュールを保存しました。終了します。\n");
+            printf("スケジュールを保存しました。プログラムを終了します。\n");
             break;
         default:
             printf("無効な選択肢です。再試行してください。\n");
