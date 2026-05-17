@@ -274,7 +274,7 @@ int isValidDate(int year, int month, int day, int hour, int minute)
         return 0; // 月が無効
     if (day < 1)
         return 0; // 日が無効
-    if (hour < 0 || hour > 24)
+    if (hour < 0 || hour > 23)
         return 0;
     if (minute < 0 || minute > 59)
         return 0;
