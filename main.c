@@ -195,6 +195,7 @@ void displaySchedules(Schedule schedules[], int count)
     }
 
     printf("\n--- スケジュール一覧 ---\n");
+    printf("現在のスケジュール数: %d\n");
     for (int i = 0; i < count; i++)
     {
         printf("%04d-%02d-%02d (%s) %02d:%02d - %s\n",
